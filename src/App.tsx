@@ -1,10 +1,15 @@
 import React from 'react';
+// import Navbar from './components/Navbar';
+// import HeroSection from './components/HeroSection';
+import { Home } from './components/Home';
 
 function App() {
   return (
-    <div>
-      <h1>NX Read: A App Recommendation Website</h1>
-    </div>
+    <>
+      <Home />
+      {/* <Navbar />
+      <HeroSection /> */}
+    </>
   );
 }
 
